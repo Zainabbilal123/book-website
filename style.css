@@ -29,6 +29,7 @@
 .main-page{
     margin-top: 10%;
     margin-left: 13%;
+    display: flex;
     
 }
 .one-side{
@@ -37,8 +38,91 @@
     font-weight: bold;
 }
 .image-side{
+    margin-left: 32%;
+    
+    
+    margin-bottom: 40px;
+}
+.image-side img{
+    width: 120%;
+    height: 100%;
+}
+.one-side input{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+.para{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 20px;
     
 }
+.cards{
+    margin-top: 60px;
+}
+.cards h2{
+    margin-left: 50px;
+}
+.card-nav{
+    margin-left: 50px;
+    margin-top: 20px;
+    
+    
+    
+}
+.card-nav img{
+    width: 20%;
+    border-radius: 10px;
+    border: 1px solid black;
+    
+ 
+}
+.img2{
+    height: 250px;
+    margin-left: 5%;
+}
+.img3{
+height: 250px;
+margin-left: 5%;
+margin-right: 5%;
+
+}
+ h2{
+    margin-left: 50px;
+    margin-top: 40px;
+ }   
+ .img4{
+    height: 250px;
+    margin-left: 3.4%;
+ }
+ .img5{
+    height: 250px;
+    
+ }
+ .img6{
+    height: 250px;
+    margin-top: 10px;
+    
+ }
+ .img7{
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 5%;
+ }
+ .img8{
+    height: 250px;
+    margin-top: 10px;
+    margin-left:5% ;
+ }
+ .img9{
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 5%;
+ }
+
+
 
     
 
