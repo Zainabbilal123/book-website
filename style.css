@@ -59,6 +59,9 @@
     margin-top: 20px;
     
 }
+.para h2{
+    margin-right: 30px;
+}
 .cards{
     margin-top: 60px;
 }
@@ -68,21 +71,39 @@
 .card-nav{
     margin-left: 50px;
     margin-top: 20px;
-    
+
+   
     
     
 }
+
+.card-nav img:hover{
+    transform: scale(1.1);
+}
+
+
 .card-nav img{
     width: 20%;
     border-radius: 10px;
     border: 1px solid black;
     
+    
+
+    
  
+}
+.card-nav  img button{
+top: -120px;
+position: absolute;
+display: block;
 }
 .img2{
     height: 250px;
     margin-left: 5%;
 }
+ 
+    
+
 .img3{
 height: 250px;
 margin-left: 5%;
@@ -103,24 +124,81 @@ margin-right: 5%;
  }
  .img6{
     height: 250px;
-    margin-top: 10px;
+    margin-top: 20px;
     
  }
  .img7{
     height: 250px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 5%;
  }
  .img8{
     height: 250px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left:5% ;
  }
  .img9{
     height: 250px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 5%;
  }
+.contact-nav{
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 30%;
+    font-weight: 200;
+    background-color: #f7bd34;
+    width: 40%;
+    height: 80px;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+.logo{
+    
+    display: flex;
+   margin-left: 40%;
+   margin-top: 15px;
+
+
+}
+
+.logo2{
+    padding-left: 10px;
+}
+.logo3{
+    padding-left: 10px;
+}
+.last-container{
+    display: flex;
+    margin-top: 80px;
+    background-color: #f7bd34;
+}
+.last-nav a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.last-nav a:hover{
+    text-decoration: underline;
+}
+.address{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.address p{
+    margin-top: 10px;
+}
+.last-nav{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.footer img{
+    margin-left: 100%;
+    width: 250px;
+    margin-top: 40px;
+    
+}
 
 
 
