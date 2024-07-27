@@ -4,15 +4,21 @@
     }
     .container{
         margin-left: 39%;
+        
 
     }
+    
 
 .nav-bar{
     background-color: #f7bd34;
     height: 50px;
+    width: 100%;
     justify-content: space-evenly;
     display: flex;
     align-items: center;
+   position: sticky;
+   top: 0;
+   z-index: 1;
     
     
 }
@@ -67,11 +73,11 @@
 }
 .cards h2{
     margin-left: 50px;
+    display: flex;
 }
 .card-nav{
     margin-left: 50px;
     margin-top: 20px;
-
    
     
     
@@ -200,6 +206,33 @@ margin-right: 5%;
     
 }
 
+@media(max-width:900px){
+    .container img{
+        margin-right: 30px;
+        width: 200px;
+        margin-top: 20px;
+    }
+    .img-side img{
+        margin-left: 20px;
+        width: 200px;
+        margin-top: 20px;
+    }
+    .one-side h2{
+        font-size: 30px;
+        font-weight: 700px;
+    }
+    .card-nav{
+        display: grid;
+        justify-content: space-evenly;
+    }
+    .card-nav img{
+        display: grid;
+        margin-bottom: 10px;
+        height: 250px;
+        width: 200px;
+        margin-right: 50px;
+    }
+}
 
 
     
